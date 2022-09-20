@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Digital";
+    src: url('../font/DS-DIGIB.TTF');
+}
+
+* {
+    font-family: "Digital";
+}
+
+.dark-mode {
+    filter: invert(100%);
+}
