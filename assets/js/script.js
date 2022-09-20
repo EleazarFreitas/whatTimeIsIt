@@ -1,5 +1,5 @@
-//const clockRunning = setInterval (
-    //function time () {
+const clockRunning = setInterval (
+    function time () {
         fetch('http://worldtimeapi.org/api/ip/')
             .then(function(response) {
                 response.json().then(json => {
@@ -17,5 +17,5 @@
                 console.log(error);
                 }
             );
-    //}, 1000
-//)
+    }, 1000
+)
