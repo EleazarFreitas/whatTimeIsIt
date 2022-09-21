@@ -7,6 +7,10 @@
     font-family: "Digital";
 }
 
+body {
+    background: linear-gradient(-45deg, #e9ecef 50%, #f8f9fa 50%);
+}
+
 .dark-mode {
     filter: invert(100%);
 }
