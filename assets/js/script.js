@@ -6,7 +6,7 @@ const clockRunning = setInterval (
                     const realTime = json.datetime;
                     const onlyTime = realTime.slice(11, -13);
                     const hour = onlyTime.slice(0, 2);
-                    if (hour < 05 && hour > 18) {
+                    if (hour < 05 || hour > 18) {
                         document.querySelector("html").classList.add("dark-mode")
                         document.querySelector("h1").innerHTML = `<i class="fa-solid fa-moon"></i>`;
                     }
