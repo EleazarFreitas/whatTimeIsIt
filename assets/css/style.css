@@ -1,14 +1,11 @@
-@font-face {
-    font-family: "Digital";
-    src: url('../font/DS-DIGIB.TTF');
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 * {
-    font-family: "Digital";
+    font-family: "Orbitron";
 }
 
 body {
-    background: linear-gradient(-45deg, #e9ecef 50%, #f8f9fa 50%);
+    background: linear-gradient(-45deg, #f8f9fa 50%, #e9ecef 50%);
 }
 
 p {
