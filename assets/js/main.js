@@ -45,7 +45,7 @@ fetch('http://worldtimeapi.org/api/ip/')
                     am_pm.innerHTML = `PM`;
                 } else if (hours > 4) {
                     body.classList.add("morning");
-                    greetings.innerHTML = `<i class="fa-solid fa-moon"></i> GOOD MORNING!`;
+                    greetings.innerHTML = `<i class="fa-regular fa-sun"></i> GOOD MORNING!`;
                     am_pm.innerHTML = `AM`;
                 } else {
                     body.classList.add("night");
