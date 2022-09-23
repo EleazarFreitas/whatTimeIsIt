@@ -3,8 +3,8 @@ fetch('http://worldtimeapi.org/api/ip/')
 {
     response.json().then(json => {
     
-        const realTime = json.datetime.slice(0, 19);
         const timezone = json.timezone.split("/");
+        const realTime = json.datetime.slice(0, 19);
         const city = timezone[timezone.length -1].replace("_", " ");
         const date = new Date(realTime);
 
@@ -51,8 +51,7 @@ fetch('http://worldtimeapi.org/api/ip/')
                     body.classList.add("night");
                     greetings.innerHTML = `<i class="fa-solid fa-moon"></i> GOOD EVENING!`;
                     am_pm.innerHTML = `AM`;
-                }
-                
+                }                
 
                 document.querySelector("h1").innerHTML = fullTime;
                 document.querySelector(".date").innerHTML = fullDate;
