@@ -1,4 +1,4 @@
-fetch('http://worldtimeapi.org/api/ip/')
+fetch('https://worldtimeapi.org/api/ip/')
 .then(function(response) 
 {
     response.json().then(json => {
