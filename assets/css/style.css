@@ -4,15 +4,19 @@
     font-family: "Poppins";
 }
 
+body {
+    background: linear-gradient(45deg, #0BEEF9, #48A9FE);
+}
+
 .morning {
-    background: linear-gradient(45deg, #cfe2ff, #fff3cd);
+    background: linear-gradient(45deg, #a9f1f6, #ffdb00);
 }
 
 .afternoon {
-    background: linear-gradient(45deg, #fff3cd, #fecba1);
+    background: linear-gradient(45deg, #fbbe00, #fd9616);
 }
 
 .night {
-    background: linear-gradient(45deg, #160d27, #000);
+    background: linear-gradient(45deg, #0f0f41, #010015);
     color: #fff;
 }
